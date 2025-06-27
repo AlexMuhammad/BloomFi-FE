@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Wallet, BarChart3, History, Settings } from "lucide-react";
+import { Wallet, BarChart3, History } from "lucide-react";
 
 interface NavigationProps {
   activeTab: string;

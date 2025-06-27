@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
-import { Plus, Wallet } from "lucide-react";
+import { Wallet } from "lucide-react";
 import { NFTPositionCard } from "./nft-position-card";
 
 const mockPositions = [
@@ -42,6 +41,7 @@ const mockPositions = [
 // }
 
 export const PositionDashboard = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [selectedPosition, setSelectedPosition] = useState<string | null>(null);
 
   const handleManagePosition = (id: string) => {

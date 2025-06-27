@@ -12,7 +12,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ArrowDown, Coins } from "lucide-react";
 
 interface Token {
   symbol: string;
@@ -112,7 +111,7 @@ export const DepositScreen = () => {
               id="secondToken"
               placeholder="0.0"
               value={amountB}
-              onChange={(e) => setAmountA(e.target.value)}
+              onChange={(e) => setAmountB(e.target.value)}
               className="bg-background/50 border-fund-800/30 h-24 rounded-2xl md:text-4xl pt-6 no-spinner"
             />
           </div>

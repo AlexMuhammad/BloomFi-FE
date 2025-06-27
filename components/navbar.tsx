@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Wallet, BarChart3, History, Menu, X } from "lucide-react";
+import { Wallet, BarChart3, Menu, X } from "lucide-react";
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,7 +13,6 @@ export const Navbar = () => {
   const navItems = [
     { path: "/", label: "Deposit", icon: Wallet },
     { path: "/positions", label: "Positions", icon: BarChart3 },
-    // { path: "/activity", label: "Activity", icon: History },
   ];
 
   const isActive = (path: string) => pathname === path;
