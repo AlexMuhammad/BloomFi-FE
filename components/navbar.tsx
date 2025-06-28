@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Wallet, BarChart3, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { CustomWallet } from "./custom-wallet";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -59,7 +61,7 @@ export const Navbar = () => {
           {/* Wallet Connection */}
           <div className="hidden md:block">
             {/* <WalletConnection /> */}
-            test
+            <CustomWallet />
           </div>
 
           {/* Mobile Menu Button */}
@@ -107,7 +109,7 @@ export const Navbar = () => {
             </div>
             <div className="mt-4 pt-4 border-t border-fund-800/30">
               {/* <WalletConnection /> */}
-              test
+              <CustomWallet />
             </div>
           </div>
         )}
