@@ -68,7 +68,8 @@ export const CustomWallet = () => {
                     style={{ display: "flex", alignItems: "center" }}
                     type="button"
                     size={"lg"}
-                    className="cursor-pointer bg-gradient-to-r from-fund-800 to-fund-600 text-foreground"
+                    variant={"outline"}
+                    className="cursor-pointer rounded-full border !border-fund-900"
                   >
                     {chain.hasIcon && (
                       <div
@@ -96,7 +97,8 @@ export const CustomWallet = () => {
                   <Button
                     type="button"
                     size={"lg"}
-                    className="cursor-pointer bg-gradient-to-r from-fund-800 to-fund-600 text-foreground"
+                    variant={"outline"}
+                    className="cursor-pointer rounded-full border !border-fund-900"
                     onClick={openAccountModal}
                   >
                     {account.displayName}

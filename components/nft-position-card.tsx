@@ -37,9 +37,7 @@ export const NFTPositionCard = ({
               <p className="font-semibold text-foreground">
                 {position.tokenA}/{position.tokenB}
               </p>
-              <p className="text-xs text-muted-foreground">
-                Position #{position.id}
-              </p>
+              <p className="text-xs text-muted-foreground">BaseSepolia</p>
             </div>
           </div>
           <Badge

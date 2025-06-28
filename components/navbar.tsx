@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Wallet, BarChart3, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { CustomWallet } from "./custom-wallet";
 
 export const Navbar = () => {

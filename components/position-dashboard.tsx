@@ -107,10 +107,9 @@ export const PositionDashboard = () => {
       </div>
 
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="grid w-full grid-cols-3 bg-secondary/20">
+        <TabsList className="grid grid-cols-2 bg-secondary/20 w-1/2">
           <TabsTrigger value="all">All Positions</TabsTrigger>
           <TabsTrigger value="active">Active</TabsTrigger>
-          <TabsTrigger value="inactive">Out of Range</TabsTrigger>
         </TabsList>
 
         <TabsContent value="all" className="space-y-4 mt-6">
