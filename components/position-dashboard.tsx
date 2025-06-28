@@ -107,7 +107,7 @@ export const PositionDashboard = () => {
       </div>
 
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="grid grid-cols-2 bg-secondary/20 w-1/2">
+        <TabsList className="grid grid-cols-2 bg-secondary/20 w-1/4">
           <TabsTrigger value="all">All Positions</TabsTrigger>
           <TabsTrigger value="active">Active</TabsTrigger>
         </TabsList>
